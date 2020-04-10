@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5b6555a-778e-4d25-9785-6fefd0aaf7dc" name="Default Changelist" comment="">
+      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/cfgs/snet.yml" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/cfgs/snet.yml" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/demo.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/demo.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/datasets/factory.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/datasets/factory.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/faster_rcnn/Snet.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/faster_rcnn/Snet.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/faster_rcnn/faster_rcnn.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/faster_rcnn/faster_rcnn.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/faster_rcnn/modules.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/faster_rcnn/modules.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/loss/losses.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/loss/losses.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/rpn/proposal_layer.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/rpn/proposal_layer.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/rpn/rpn.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/rpn/rpn.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/utils/config.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/utils/config.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/utils/net_utils.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/utils/net_utils.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/psroialign/PSROIAlign/setup.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/psroialign/PSROIAlign/setup.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/roi_data_layer/augmentation.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/roi_data_layer/augmentation.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/roi_data_layer/roibatchLoader.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/roi_data_layer/roibatchLoader.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/roi_data_layer/utils.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/roi_data_layer/utils.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/setup.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/setup.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/readme.md" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/readme.md" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/script/pre.sh" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/script/pre.sh" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/script/train_146.sh" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/script/train_146.sh" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/test_net.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/test_net.py" afterDir="false" />
+      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/trainval_net.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/trainval_net.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac" />
+  </component>
+  <component name="ProjectId" id="1ZvRdLgthej1H6xcDC1ym8XtgWm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mmdet/models/detectors" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mmdet/models/detectors" />
+      <recent name="$PROJECT_DIR$/configs/mask_rcnn_lite" />
+      <recent name="$PROJECT_DIR$/configs/thundernet" />
+      <recent name="$PROJECT_DIR$/configs/cascsde_rcnn_light" />
+      <recent name="$PROJECT_DIR$/mmdet/models/backbones" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test (2)">
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mmdetection_lite" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/weights" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/weights/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mmdetection_lite" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mmdetection_lite" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test (2)" />
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5b6555a-778e-4d25-9785-6fefd0aaf7dc" name="Default Changelist" comment="" />
+      <created>1585717668000</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585717668000</updated>
+      <workItem from="1585717669134" duration="30539000" />
+      <workItem from="1585818445427" duration="18697000" />
+      <workItem from="1585983396856" duration="35231000" />
+      <workItem from="1586224678476" duration="3793000" />
+      <workItem from="1586230366661" duration="6656000" />
+      <workItem from="1586307522293" duration="4713000" />
+      <workItem from="1586332411956" duration="8894000" />
+      <workItem from="1586406136848" duration="25351000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet/models/detectors/cascade_rcnn_lite.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mmdetection_lite$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1585892342436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/weights" />
+    <SUITE FILE_PATH="coverage/mmdetection_lite$test.coverage" NAME="test Coverage Results" MODIFIED="1585725661184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mmdetection_lite$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1586051634265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+  </component>
+</project>
