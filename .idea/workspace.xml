@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5b6555a-778e-4d25-9785-6fefd0aaf7dc" name="Default Changelist" comment="">
-      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/cfgs/snet.yml" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/cfgs/snet.yml" afterDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/demo.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/demo.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/datasets/factory.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/datasets/factory.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/faster_rcnn/Snet.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/faster_rcnn/Snet.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/faster_rcnn/faster_rcnn.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/faster_rcnn/faster_rcnn.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/faster_rcnn/modules.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/faster_rcnn/modules.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/loss/losses.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/loss/losses.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/rpn/proposal_layer.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/rpn/proposal_layer.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/rpn/rpn.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/rpn/rpn.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/utils/config.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/utils/config.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/utils/net_utils.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/model/utils/net_utils.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/psroialign/PSROIAlign/setup.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/psroialign/PSROIAlign/setup.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/roi_data_layer/augmentation.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/roi_data_layer/augmentation.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/roi_data_layer/roibatchLoader.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/roi_data_layer/roibatchLoader.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/roi_data_layer/utils.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/roi_data_layer/utils.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/setup.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/lib/setup.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/readme.md" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/readme.md" afterDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/script/pre.sh" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/script/pre.sh" afterDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/script/train_146.sh" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/script/train_146.sh" afterDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/test_net.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/test_net.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/trainval_net.py" beforeDir="false" afterPath="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac/trainval_net.py" afterDir="false" />
-    </list>
+    <list default="true" id="e5b6555a-778e-4d25-9785-6fefd0aaf7dc" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +16,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/Desktop/myself/object_detect/Thundernet_Pytorch_mac" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZvRdLgthej1H6xcDC1ym8XtgWm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -171,7 +149,7 @@
       <workItem from="1586230366661" duration="6656000" />
       <workItem from="1586307522293" duration="4713000" />
       <workItem from="1586332411956" duration="8894000" />
-      <workItem from="1586406136848" duration="25351000" />
+      <workItem from="1586406136848" duration="25716000" />
     </task>
     <servers />
   </component>
