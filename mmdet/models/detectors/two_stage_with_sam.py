@@ -17,16 +17,16 @@ class SAM(torch.nn.Module):
         self.init_weights()
     def forward(self, input):
 
+        out = []
+        rpn = input[0]
+        cem = input[1]
+        for lvl_feat ,lvl_rpn  in zip(cem,rpn):
 
-        rpn = input[0][0]
-
-        cem = input[1][0]
-
-        sam = self.conv1(rpn)
-        sam = self.bn(sam)
-        sam = F.sigmoid(sam)
-        out = cem * sam
-        return tuple([out])
+            sam = self.conv1(lvl_rpn)
+            sam = self.bn(sam)
+            sam = F.sigmoid(sam)
+            out.append(lvl_feat * sam)
+        return tuple(out)
 
     def init_weights(self):
         for m in self.modules():
@@ -123,6 +123,7 @@ class TwoStageWithSamDetector(BaseDetector, RPNTestMixin, BBoxTestMixin,
 
         See `mmdetection/tools/get_flops.py`
         """
+
         outs = ()
         # backbone
         x = self.extract_feat(img)
@@ -193,6 +194,7 @@ class TwoStageWithSamDetector(BaseDetector, RPNTestMixin, BBoxTestMixin,
         Returns:
             dict[str, Tensor]: a dictionary of loss components
         """
+
         x = self.extract_feat(img)
 
         losses = dict()
@@ -306,8 +308,13 @@ class TwoStageWithSamDetector(BaseDetector, RPNTestMixin, BBoxTestMixin,
         x = self.extract_feat(img)
 
         if proposals is None:
-            proposal_list = await self.async_test_rpn(x, img_meta,
-                                                      self.test_cfg.rpn)
+            rpn_outs = self.simple_test_rpn(x)
+            # print(len(rpn_outs))
+            rpn = rpn_outs[-1]
+            rpn_outs = rpn_outs[:2]
+            x = self.sam([rpn, x])
+            proposal_inputs = rpn_outs + (img_meta, self.test_cfg.rpn)
+            proposal_list = self.rpn_head.get_bboxes(*proposal_inputs)
         else:
             proposal_list = proposals
 
@@ -335,8 +342,13 @@ class TwoStageWithSamDetector(BaseDetector, RPNTestMixin, BBoxTestMixin,
         x = self.extract_feat(img)
 
         if proposals is None:
-            proposal_list = self.simple_test_rpn(x, img_metas,
-                                                 self.test_cfg.rpn)
+            rpn_outs = self.simple_test_rpn(x )
+            # print(len(rpn_outs))
+            rpn = rpn_outs[-1]
+            rpn_outs = rpn_outs[:2]
+            x = self.sam([rpn, x])
+            proposal_inputs = rpn_outs + (img_metas,self.test_cfg.rpn)
+            proposal_list = self.rpn_head.get_bboxes(*proposal_inputs)
         else:
             proposal_list = proposals
 
